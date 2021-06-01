@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block head %}
+<style>
+    @media only screen and (max-width: 768px) {
+    .banner6{
+      height:250px;
+      width: 100%;
+    }
+    }
+      
+</style>
+      
+{% endblock %}
+{% block myblock %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 px-0 mt-5">
+            <img src="{% static 'images/w14.jpg'%}" alt="" height="500px" width="100%" style="background-attachment: fixed; background-size: 100% 100%;" class="banner6">
+        </div>
+        <div class="col-md-12 p-0">
+            <h3 class="bg-dark text-light text-center" ><marquee behavior="alternate" direction="left">Self Pickup option now available on E-Commerce. A few days ago, we hit 21 million monthly orders, and our services are currently present in 41 cities.</marquee> </h3>
+        </div>
+        <div class="col-md-3 my-2">
+            <div class="card">
+                <div class="card-header">
+                    <p>How does E-Commerce delivery work?</p>
+                </div>
+                <div class="card-body text-justify">
+                    <p>To begin with, through its all product, E-Commerce charges a commission to the holesale on the basis of orders. While users pay a delivery fee, E-Commerce earns through Holesaler who pay a commission for each delivery, which is then split among the delivery partner and the company.</p>
+                </div>
+                <div class="card-footer">
+                    <small><em>From E-Commerce & Team</em></small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 my-2">
+            <div class="card">
+                <div class="card-header">
+                    <p>How do you order Product on E-Commerce?</p>
+                </div>
+                <div class="card-body text-justify">
+                    Search for the Product you want your from. 3. Now that the product page is open, go to “Order Delivery” from the right side. 4.
+                </div>
+                <div class="card-footer">
+                    <small><em>From E-Commerce & Team</em></small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 my-2">
+            <div class="card">
+                <div class="card-header">
+                    <p>What is the best product to order online?</p>
+                </div>
+                <div class="card-body text-justify">
+                    <p>5 of the best product to get delivered.</p>
+                        <ul type="disc">
+                            <li>Mobile  and Laptop well. ...</li>
+                            <li>Sports Shoes, LED, is a great choice. ...</li>
+                            <li>T-Shirts,Jeans,Pants. ...</li>
+                            <li>Kitchen Products well. ...</li>
+                            <li>Electronic  are a popular choice for a reason.</li>    
+                        </ul>
+                        
+                </div>
+                <div class="card-footer">
+                    <small><em>From E-Commerce & Team</em></small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 my-2">
+            <div class="card">
+                <div class="card-header">
+                    <p>How do I join E-commerce as a delivery boy?</p>
+                </div>
+                <div class="card-body text-justify">
+                    <ul>
+                        <li>Bike.</li>
+                        <li>Driving License & RC Book.</li>
+                        <li>PAN Card & Account details for Salary.</li>
+                        <li>Adhar card for Proof.</li>
+                        <li>Smartphone where order can be received by installing our app.</li>
+                        <li>You have to deposit 1000 rupees for Bag and 2 T-shirts.</li>
+                        <li>High School Mark Sheet.</li>  
+                    </ul>
+                    
+                </div>
+                <div class="card-footer">
+                    <small><em>From E-Commerce & Team</em></small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
